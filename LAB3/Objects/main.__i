@@ -1,0 +1,12 @@
+-xc -std=c99 --target=arm-arm-none-eabi -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -c
+-fno-rtti -funsigned-char -fshort-enums -fshort-wchar
+-D__EVAL -gdwarf-4 -O0 -ffunction-sections -w -I C:/ti/TivaWare_C_Series-2.2.0.295 -I C:/ti/TivaWare_C_Series-2.2.0.295/inc
+-I./RTE/RTOS
+-I./RTE/_Target_1
+-IC:/Users/User/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/CMSIS/RTOS2/FreeRTOS/Include
+-IC:/Users/User/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/include
+-IC:/Users/User/AppData/Local/Arm/Packs/ARM/CMSIS-FreeRTOS/10.4.6/Source/portable/GCC/ARM_CM4F
+-IC:/Users/User/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+-IC:/Users/User/AppData/Local/Arm/Packs/Keil/TM4C_DFP/1.1.0/Device/Include/TM4C123
+-D__UVISION_VERSION="537" -D_RTE_ -DTM4C123GH6PM -D_RTE_ -D__FPU_PRESENT
+-o ./objects/main.o -MD "main.c"
